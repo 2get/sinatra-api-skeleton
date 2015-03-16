@@ -2,10 +2,10 @@
 
 require 'spec_helper'
 
-describe 'Project::Api' do
+describe 'Project::App' do
 
   def app
-    @app ||= Project::Api
+    @app ||= Project::App
   end
 
   describe 'when GET /api/v1/' do

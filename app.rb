@@ -1,5 +1,5 @@
 module Project
-  class Api < Sinatra::Base
+  class App < Sinatra::Base
     configure do
       register Sinatra::Namespace
     end

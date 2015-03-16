@@ -3,4 +3,4 @@ Bundler.require
 
 require './app'
 
-run Project::Api
+run Project::App
