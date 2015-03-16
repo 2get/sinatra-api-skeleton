@@ -8,8 +8,8 @@ describe 'Project::App' do
     @app ||= Project::App
   end
 
-  describe 'when GET /api/v1/' do
-    before { get '/api/v1/' }
+  describe 'when GET /api/v1/hello' do
+    before { get '/api/v1/hello' }
     subject { last_response }
 
     it 'status code 200' do

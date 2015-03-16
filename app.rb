@@ -10,9 +10,8 @@ module Project
     end
 
     namespace '/api/v1' do
-      get '/' do
-        data = { message: 'Hello World' }
-        json data
+      get '/hello' do
+        jbuilder :hello
       end
     end
   end
